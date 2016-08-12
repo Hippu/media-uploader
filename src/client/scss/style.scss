@@ -1,0 +1,49 @@
+@import '~normalize.css';
+@import 'button.scss';
+body {
+    font-size: 16px;
+}
+.header {
+  margin-top: 0px;
+  background-color: rgb(150, 242, 255);
+  padding-left: 1em;
+  display: block;
+  width: auto;
+  border: 3px solid black;
+  h2 {
+    display: inline-block;
+  }
+  input {
+    display: inline;
+  }
+}
+main {
+    margin: 1em;
+    .ondrop {
+      background-color: rgb(114, 71, 129);
+      transition: background-color 0.2s ease-out;
+    }
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    div {
+        display: flex;
+        flex: 1 1 auto;
+        border-radius: 5px;
+        margin: 1em;
+        background-color: rgb(209, 209, 209);
+        transition: width 0.2s ease-out, background-color 0.2s;
+        justify-content: center;
+        align-items: center;
+        img {
+          max-height: 200px;
+          display: block;
+        }
+    }
+    div:hover {
+
+        background-color: rgb(131, 131, 131);
+    }
+}

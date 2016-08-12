@@ -1,0 +1,27 @@
+{
+  "name": "gifjuttu",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dest/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-debug-win": "start webpack --watch --progress & set DEBUG=express:* & node src/server/app.js"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "express": "^4.14.0",
+    "helmet": "^2.1.2",
+    "imagemin": "^5.2.2",
+    "multer": "^1.1.0",
+    "node-sass": "^3.8.0",
+    "normalize.css": "^4.2.0",
+    "sass-loader": "^4.0.0",
+    "sqlite3": "^3.1.4",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^0.8.2",
+    "webpack": "^1.13.1"
+  }
+}

@@ -1,0 +1,5 @@
+/node_modules*
+/typings*
+/media*
+*.js
+!webpack.config.js

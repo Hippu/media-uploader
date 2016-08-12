@@ -1,0 +1,15 @@
+button {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(65, 65, 65);
+    border-radius: 3px;
+    font-size: 20px;
+    position: fixed;
+    padding: 10px;
+    bottom: 50px;
+    right: 50px;
+    min-width: 6em;
+}
+
+button:focus {
+  background-color: rgb(255, 126, 126);
+}
