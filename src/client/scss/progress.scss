@@ -1,0 +1,11 @@
+progress {
+  margin: auto;
+  height: 30px;
+  width: 400px;
+  border: 1px solid black;
+  display: none;
+
+  .visible {
+    display: inline-block;
+  }
+}
