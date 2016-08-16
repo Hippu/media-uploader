@@ -1,4 +1,4 @@
-import updateList from "./file-list";
+import updateList from "./file-list.ts";
 
 function upload(file: File): void {
     let request = new XMLHttpRequest();

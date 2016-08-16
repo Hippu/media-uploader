@@ -1,5 +1,5 @@
+import drag from "./drag.ts";
+import updateList from "./file-list.ts";
 require("../scss/style.scss");
-import drag from "./drag";
-import updateList from "./file-list";
 drag();
 updateList();

@@ -1,5 +1,7 @@
 /node_modules*
 /typings*
+/src/server/typings*
+/uploads/*
 /media*
 *.js
 !webpack.config.js

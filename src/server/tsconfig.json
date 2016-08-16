@@ -14,15 +14,14 @@
         "noLib": false,
         "preserveConstEnums": true,
         "suppressImplicitAnyIndexErrors": true,
-        "outDir": "../built_js/"
+        "outDir": "../../bin/"
     },
     "exclude": [
         "node_modules",
         "typings/browser",
-        "typings/browser.d.ts",
-        "src/server"
+        "typings/browser.d.ts"
     ],
-    "compileOnSave": false,
+    "compileOnSave": true,
     "buildOnSave": false,
     "atom": {
         "rewriteTsconfig": false

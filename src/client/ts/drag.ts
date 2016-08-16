@@ -1,4 +1,4 @@
-import upload from "./upload"
+import upload from "./upload.ts"
 
 function drag() {
     let droppable = document.getElementsByTagName('main');

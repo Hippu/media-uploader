@@ -1,8 +1,9 @@
 var path = require("path");
+var failPlugin = require("webpack-fail-plugin");
 module.exports = {
   entry: "./src/client/ts/entry.ts",
   output: {
-    path: "static/",
+    path: path.resolve(__dirname, 'static'),
     filename: "bundle.js"
   },
   module: {
@@ -15,5 +16,6 @@ module.exports = {
         loader: "ts-loader"
       }
     ]
-  }
+  },
+  plugin: failPlugin
 };
